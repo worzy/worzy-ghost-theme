@@ -1,0 +1,29 @@
+{{!< default}}
+
+<header class="blog-head container">
+    <div class="col12">
+        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+        <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+        <h2 class="blog-description">{{@blog.description}}</h2>
+    </div>
+</header>
+
+<main class="container" role="main">
+
+    {{#foreach posts}}
+        <article class="col12">
+            <header>
+                <h3 class="post-title"><a href="{{url}}">{{{title}}}</a></h3>
+                <div class="post-meta"><i class="fa fa-clock-o"></i> <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd, MMMM DD, YYYY"}}</time></div>
+            </header>
+            <section class="post-excerpt">
+                <p>{{excerpt}}&hellip;</p>
+            </section>
+        </article>
+        <div class="clear"></div>
+    {{/foreach}}
+    
+
+    {{pagination}}
+
+</main>

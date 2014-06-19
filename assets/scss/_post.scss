@@ -1,0 +1,28 @@
+.post-template {
+	h1 {
+		font-size: 35px;
+		margin-bottom: 15px;
+		line-height: 35px;
+	}
+}
+
+.tags {
+	font-size: 80%;
+}
+
+.author {
+	margin: 40px 0;
+	h4 {
+		margin: 0;
+	}
+	.attr {
+		margin: 0;
+	}
+	.userimage {
+		float: left;
+		border-radius: 150px;
+		height: 100px;
+		width: 100px;
+		margin-right: 15px;
+	}
+}

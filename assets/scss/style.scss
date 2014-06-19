@@ -1,0 +1,88 @@
+@import 'version';
+@import 'vars';
+@import 'mixins';
+
+// Common styles for all screen sizes
+body {
+  background: $white;
+  color: $text;
+  font-family: $body-font;
+  font-weight: 300;
+  color: $text;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $title-font;
+	font-weight: 700;
+	color: $title;
+	a {
+		text-decoration: none;
+		transition: color 0.7s ease 0s;
+	}
+}
+
+.blog-title {
+	font-size: 35px;
+	margin-bottom: 0;
+	display: block;
+	color: $title;
+	font-weight: 700;
+	font-style: normal;
+	margin-top: 23px;
+	line-height: 35px;
+	a {
+		text-decoration: none;
+		color: $title; 
+	}
+}
+
+.blog-description {
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	display: block;
+	color: $title;
+	font-style: normal;
+}
+
+h3 {
+	font-size: 35px;
+	line-height: 35px;
+	margin: 29px 0 15px;
+	a {
+		text-decoration: none;
+		color: $title; 
+	}
+}
+
+a {
+	color: $link;
+	&:hover {
+		color: $link;
+	}
+}
+
+.post-meta {
+	color: lighten($text, 35%);
+	.fa {
+		margin-right: 5px;
+	}
+}
+
+.pagination {
+	text-align: center;
+	margin: 20px 0;
+}
+
+section.post-content img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+@import 'responsive';
+@import 'header';
+@import 'footer';
+@import 'post';

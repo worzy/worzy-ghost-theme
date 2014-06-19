@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:700,300);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  width: 720px;
+}
+
+.col2 {
+  float: left;
+  margin: 0 10px;
+  width: 100px;
+}
+
+.col3 {
+  float: left;
+  margin: 0 10px;
+  width: 160px;
+}
+
+.col4 {
+  float: left;
+  margin: 0 10px;
+  width: 220px;
+}
+
+.col5 {
+  float: left;
+  margin: 0 10px;
+  width: 280px;
+}
+
+.col6 {
+  float: left;
+  margin: 0 10px;
+  width: 340px;
+}
+
+.col7 {
+  float: left;
+  margin: 0 10px;
+  width: 400px;
+}
+
+.col8 {
+  float: left;
+  margin: 0 10px;
+  width: 460px;
+}
+
+.col9 {
+  float: left;
+  margin: 0 10px;
+  width: 520px;
+}
+
+.col10 {
+  float: left;
+  margin: 0 10px;
+  width: 580px;
+}
+
+.col11 {
+  float: left;
+  margin: 0 10px;
+  width: 640px;
+}
+
+.col12 {
+  float: left;
+  margin: 0 10px;
+  width: 700px;
+}
+
+.pre1 {
+  padding-left: 60px;
+}
+
+.pre2 {
+  padding-left: 120px;
+}
+
+.pre3 {
+  padding-left: 180px;
+}
+
+.pre4 {
+  padding-left: 240px;
+}
+
+.pre5 {
+  padding-left: 300px;
+}
+
+.pre6 {
+  padding-left: 360px;
+}
+
+.pre7 {
+  padding-left: 420px;
+}
+
+.pre8 {
+  padding-left: 480px;
+}
+
+.pre9 {
+  padding-left: 540px;
+}
+
+.pre10 {
+  padding-left: 600px;
+}
+
+.pre11 {
+  padding-left: 660px;
+}
+
+.suf1 {
+  padding-right: 60px;
+}
+
+.suf2 {
+  padding-right: 120px;
+}
+
+.suf3 {
+  padding-right: 180px;
+}
+
+.suf4 {
+  padding-right: 240px;
+}
+
+.suf5 {
+  padding-right: 300px;
+}
+
+.suf6 {
+  padding-right: 360px;
+}
+
+.suf7 {
+  padding-right: 420px;
+}
+
+.suf8 {
+  padding-right: 480px;
+}
+
+.suf9 {
+  padding-right: 540px;
+}
+
+.suf10 {
+  padding-right: 600px;
+}
+
+.suf11 {
+  padding-right: 660px;
+}
+
+.colr {
+  float: right;
+  margin: 0 10px;
+}
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  float: none;
+  margin: 0 auto;
+}
