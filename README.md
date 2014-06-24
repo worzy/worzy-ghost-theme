@@ -1,8 +1,10 @@
 # Worzy Ghost Theme
 
-Introduction text
+Minimal theme for Ghost blogs.  Compatible with version 0.4 of Ghost.
 
 Demo: [garethdrew.me](http://garethdrew.me/).
+
+## Roadmap
 
 ## Modifications
 
